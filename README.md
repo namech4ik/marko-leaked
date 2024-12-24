@@ -7,4 +7,4 @@ Contributors: Sadsalat, Useless, Mr. Point, 0oa*
 
 *Shame to 0oa for betraying us at the gamemode online peak. 
 
-СТОП ЧЕ ТУТ ХОМИГРАД ДЕЛАЕТ
+№ СТОП ЧЕ ТУТ ХОМИГРАД ДЕЛАЕТ
