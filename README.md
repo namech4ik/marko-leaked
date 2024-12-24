@@ -1,1 +1,2 @@
-# MARK"O Source code leaked
+# marko_new
+ source code from marko

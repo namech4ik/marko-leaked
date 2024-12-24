@@ -1,0 +1,45 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://xsafnmpyxcqb"]
+
+[ext_resource type="FontFile" uid="uid://c6u0ognsd2ia3" path="res://Fonts/intro-demo-black-caps.otf" id="1_4y4b0"]
+[ext_resource type="StyleBox" uid="uid://cdn73r0tsmjtt" path="res://Menu_buttons.tres" id="2_q6bim"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8c4q2"]
+bg_color = Color(1, 1, 1, 0)
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a1ujy"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ki37c"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[resource]
+default_font = ExtResource("1_4y4b0")
+/font_sizes/fontsize = 15
+/fonts/font = ExtResource("1_4y4b0")
+Button/fonts/font = ExtResource("1_4y4b0")
+Button/styles/focus = SubResource("StyleBoxFlat_8c4q2")
+Button/styles/hover = SubResource("StyleBoxFlat_a1ujy")
+Button/styles/normal = ExtResource("2_q6bim")
+Button/styles/pressed = SubResource("StyleBoxFlat_ki37c")
